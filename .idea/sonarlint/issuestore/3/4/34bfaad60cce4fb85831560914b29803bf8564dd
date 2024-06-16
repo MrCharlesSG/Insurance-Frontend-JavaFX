@@ -1,0 +1,29 @@
+
+š
+java:S1104"RMake tfName a static final constant or non-public and provide accessors if needed.(×¾Ìûÿÿÿÿ8ö¡ñ‡ú1J$30754141-adac-465c-85c9-d3e3157fd8dd
+˜
+java:S1104"UMake tfSurname a static final constant or non-public and provide accessors if needed.(Î³„ß8ö¡ñ‡ú1J$3deef986-b3b4-44bf-b5f2-8d94cdafc3d7
+™
+java:S1104"VMake tfPassport a static final constant or non-public and provide accessors if needed.(²¿Ö8ö¡ñ‡ú1J$f9590175-192b-4211-9465-e143623fa368
+›
+java:S1104"SMake tfEmail a static final constant or non-public and provide accessors if needed.(Âéóøÿÿÿÿ8ö¡ñ‡ú1J$3a6164a7-617e-4e44-b21b-5bf117fe025e
+
+java:S1104"VMake dpBirthday a static final constant or non-public and provide accessors if needed.(™·ÉŒúÿÿÿÿ8ö¡ñ‡ú1J$8e7e9663-3603-4d44-ae3b-43581e38b806
+z
+java:S1172#"2Remove this unused method parameter "actionEvent".(‡¨ƒûúÿÿÿÿ8‘¢ñ‡ú1J$3f73b262-720b-4f97-b4a6-26d219566e1a
+z
+java:S1172,"2Remove this unused method parameter "actionEvent".(ÎÉñ†ûÿÿÿÿ8’¢ñ‡ú1J$0bc2460f-8edd-43cb-a133-448f92cce970
+~	java:S125I"<This block of commented-out lines of code should be removed.(‹•„—8•¢ñ‡ú1J$c81d29c4-e6db-4ddc-9428-1599be27921d
+z
+java:S1172`"2Remove this unused method parameter "actionEvent".(¡ÁÄÛÿÿÿÿÿ8—¢ñ‡ú1J$f1c32239-a10a-48f0-bba0-6a35484e8e4d
+\
+java:S1128	":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8¹ıƒŒ‚2
+[
+java:S1128
+"9Remove this unused import 'javafx.scene.layout.GridPane'.(ÖÀ¹¯ûÿÿÿÿ8¹ıƒŒ‚2
+V
+java:S1128"9Remove this unused import 'javafx.scene.layout.Priority'.(ë°ı8¹ıƒŒ‚2
+W
+java:S1128"5Remove this unused import 'javafx.scene.layout.VBox'.(íÆáÂùÿÿÿÿ8ºıƒŒ‚2
+J
+java:S1128"-Remove this unused import 'java.time.ZoneId'.( Æ½“8ºıƒŒ‚2

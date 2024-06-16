@@ -1,0 +1,16 @@
+
+w
+java:S3740"/Provide the parametrized type for this generic.(•µÌ‚úÿÿÿÿ8â˜ôÿû1J$4eae4b5f-b2d8-458d-9bef-3ab5dae4c2e7
+w
+java:S3740/"/Provide the parametrized type for this generic.(¶”Ûıÿÿÿÿ8â˜ôÿû1J$3caa9088-7c2e-43a5-bc12-783f08e1e11d
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ğ±‡Øúÿÿÿÿ8‡™ôÿû1J$c958f9bf-4e18-4495-89e9-b1752074c260
+Á
+java:S1130#"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(×Ãù üÿÿÿÿ8¤¨Ğ€ü1J$81eaac5b-17d7-44e2-bfe1-4e74d694f3e1
+´
+java:S1130#"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(×Ãù üÿÿÿÿ8¥¨Ğ€ü1J$be2f35da-de61-49cb-b2ab-efba8fa57b07
+r	java:S106@"+Replace this use of System.out by a logger.(Üé‘¼ÿÿÿÿÿ8•™ôÿû1J$1a5a1e91-b002-4947-9826-42519814590d
+r	java:S106E"+Replace this use of System.out by a logger.(­Üøÿÿÿÿ8•™ôÿû1J$af8e4ab0-4678-4af6-bf2d-45ba2b446fc2
+
+java:S1128"JRemove this unused import 'hr.algebra.javafxinsurance.dto.VehicleInfoDTO'.(ÅÚ˜¹8ú‡ü1J$c9b56072-2327-43a8-a261-415326cb478c
+†
+java:S1128"CRemove this unused import 'hr.algebra.javafxinsurance.model.Token'.(Ã¹ø´8Ÿú‡ü1J$0b0362e5-ff63-4343-8b29-35cce879eabd

@@ -1,0 +1,45 @@
+
+™
+java:S1104"VMake tfVehicleA a static final constant or non-public and provide accessors if needed.(¡ßÁï8´“Ãˆú1J$4551727e-917a-4e9c-a64b-759478df11be
+œ
+java:S1104"YMake tableDriversA a static final constant or non-public and provide accessors if needed.(ºìãØ8´“Ãˆú1J$d91c7b94-efa2-4505-aca1-2a5e876219af
+›
+java:S1104"SMake tcNameA a static final constant or non-public and provide accessors if needed.(Äéøÿÿÿÿ8´“Ãˆú1J$df9901c2-9af8-4bf8-be4a-8814cfcdd470
+Ÿ
+java:S1104"WMake tcSurnamesA a static final constant or non-public and provide accessors if needed.(â½çãşÿÿÿÿ8´“Ãˆú1J$bbab5fec-5e10-4a6f-b880-9bceb3e50f39
+œ
+java:S1104"YMake tableDriversB a static final constant or non-public and provide accessors if needed.(Ñ¿¯Î8´“Ãˆú1J$374f4d4e-c79a-4bd6-9fa0-4760153f3b4d
+–
+java:S1104"SMake tcNameB a static final constant or non-public and provide accessors if needed.(â¬ç±8´“Ãˆú1J$32df68b2-f688-419d-ba80-8ca432ccf574
+š
+java:S1104 "WMake tcSurnamesB a static final constant or non-public and provide accessors if needed.( ñµä8´“Ãˆú1J$b9afce5f-5008-44b9-acbd-87abf9e5df08
+¥
+java:S1104!"]Make lbSelectedDriverA a static final constant or non-public and provide accessors if needed.(±»Ç—ıÿÿÿÿ8´“Ãˆú1J$8925ef57-21c8-461e-9f33-024c2c452553
+
+java:S1104""VMake taDamagesB a static final constant or non-public and provide accessors if needed.(«»â¥ûÿÿÿÿ8´“Ãˆú1J$ee15cccc-d53e-4f81-aa07-10d2673d81b0
+ 
+java:S1104#"]Make lbSelectedDriverB a static final constant or non-public and provide accessors if needed.(İ¿Ñë8´“Ãˆú1J$2c392a16-117d-4135-8bdb-e94a908dcfe2
+
+java:S1104$"VMake tfVehicleB a static final constant or non-public and provide accessors if needed.(Æ§¶µıÿÿÿÿ8´“Ãˆú1J$080825ab-e449-49cc-b630-2773a39fc1d3
+™
+java:S1104'"VMake taDamagesA a static final constant or non-public and provide accessors if needed.(¶®÷8´“Ãˆú1J$fd43bd59-597a-4099-b350-5e507ef648b1
+•
+java:S1104("RMake dpDate a static final constant or non-public and provide accessors if needed.(š®‰Ï8´“Ãˆú1J$545ad622-5d8c-4a8a-a9e7-021bd92f8bf4
+›
+java:S1104)"SMake tfPlace a static final constant or non-public and provide accessors if needed.(Ú©îÎıÿÿÿÿ8´“Ãˆú1J$335de92e-1a5e-4f0e-b1a5-a92c262b03a6
+
+java:S1104*"UMake taDetails a static final constant or non-public and provide accessors if needed.(¨Ëé§ùÿÿÿÿ8´“Ãˆú1J$6f838b6e-cb00-4318-a8a7-f937af418cff
+
+java:S1104,"[Make driverASelected a static final constant or non-public and provide accessors if needed.(ÿÀÈİ8´“Ãˆú1J$5d652756-8889-423f-9772-397a15b22561
+
+java:S1104-"[Make driverBSelected a static final constant or non-public and provide accessors if needed.(‘½8´“Ãˆú1J$ce2e2101-20fa-453e-98aa-8e2d69e0406d
+Ê
+java:S1186…"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•á¶Íıÿÿÿÿ8Ø“Ãˆú1J$2be02a13-e15e-4f54-af32-392a37fbb06d
+u
+java:S1172y"2Remove this unused method parameter "actionEvent".(å‘î§8á“Ãˆú1J$f4445516-527b-4c0f-8487-6cf15f2a8350
+u
+java:S1172"2Remove this unused method parameter "actionEvent".(¸ÇØİ8â“Ãˆú1J$c6f07b59-9732-41a5-a268-090222a4bf79
+v
+java:S1172¥"2Remove this unused method parameter "actionEvent".(Ô×”ˆ8ä“Ãˆú1J$79efd32f-43e1-469d-8414-578cbe333e6d
+{
+java:S1172±"2Remove this unused method parameter "actionEvent".(‚îëÆÿÿÿÿÿ8å“Ãˆú1J$a2052491-53d0-4bc9-bd75-b4e0e1d0df41

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.javafxinsurance.controller.DriversMenuController">
+   <children>
+      <ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: white;">
+         <content>
+            <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="5.0" style="-fx-background-color: white;">
+               <children>
+                  <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0" style="-fx-background-color: #f1f5f9; -fx-background-radius: 10px;">
+                     <children>
+                        <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="285.0" text="Drivers" textFill="#4f46e5">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Button mnemonicParsing="false" onAction="#onAssociate" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #10b981;" text="Associate" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <TableView fx:id="tableDrivers" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                           <columns>
+                              <TableColumn fx:id="tcName" editable="false" prefWidth="75.0" text="Name" />
+                              <TableColumn fx:id="tcSurname" prefWidth="75.0" text="Surname" />
+                              <TableColumn fx:id="tcPassport" prefWidth="75.0" text="Passport" />
+                              <TableColumn fx:id="tcEmail" prefWidth="75.0" text="Email" />
+                              <TableColumn fx:id="tcBirthday" prefWidth="75.0" text="Birthday" />
+                           </columns>
+                        </TableView>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox spacing="10.0" style="-fx-background-color: #f1f5f9; -fx-background-radius: 10px;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Selected Driver" textFill="#4f46e5">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="5.0">
+                           <children>
+                              <Label text="Name" />
+                              <TextField fx:id="tfName" editable="false" />
+                              <Label layoutX="10.0" layoutY="10.0" text="Surname" />
+                              <TextField fx:id="tfSurname" editable="false" layoutX="10.0" layoutY="33.0" />
+                              <Label layoutX="10.0" layoutY="63.0" text="Passport" />
+                              <TextField fx:id="tfPassport" editable="false" layoutX="10.0" layoutY="86.0" />
+                              <Label layoutX="10.0" layoutY="117.0" text="Email" />
+                              <TextField fx:id="tfEmail" editable="false" layoutX="10.0" layoutY="139.0" />
+                              <Label layoutX="10.0" layoutY="170.0" text="Birthday" />
+                              <TextField fx:id="tfBirtday" editable="false" layoutX="10.0" layoutY="193.0" />
+                           </children>
+                        </VBox>
+                        <Button fx:id="btnDissociate" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onDissociate" style="-fx-background-color: #f43f5e;" text="Dissociate" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+         </content>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding>
+      </ScrollPane>
+   </children>
+</AnchorPane>

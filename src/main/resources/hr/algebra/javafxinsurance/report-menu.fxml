@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:controller="hr.algebra.javafxinsurance.controller.ReportMenuController" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="5.0" style="-fx-background-color: white;">
+         <children>
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0" style="-fx-background-color: #f1f5f9; -fx-background-radius: 10px;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Reports" textFill="#4f46e5">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" spacing="15.0">
+                     <children>
+                        <ComboBox fx:id="cbReportsSelector" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#onReportStatusSelected" prefHeight="25.0" prefWidth="141.0" style="-fx-background-color: #a5b4fc;" />
+                        <Button mnemonicParsing="false" onAction="#onOpenReport" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #34d399;" text="Open" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <TableView fx:id="tableReports">
+                     <columns>
+                        <TableColumn fx:id="tcDate" editable="false" prefWidth="75.0" text="Date" />
+                        <TableColumn fx:id="tcPlace" prefWidth="75.0" text="Place" />
+                        <TableColumn fx:id="tcDetails" prefWidth="75.0" text="Details" />
+                        <TableColumn fx:id="tcStatus" prefWidth="59.33329772949219" text="Status" />
+                     </columns>
+                  </TableView>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+            <VBox spacing="10.0" style="-fx-background-color: #f1f5f9; -fx-background-radius: 10px;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Selected Driver" textFill="#4f46e5">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="3.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #f1f5f9; -fx-background-radius: 5px;" text="Info A" textFill="#4f46e5">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Vehicle" />
+                        <TextField fx:id="tfVehicleA" editable="false" />
+                        <Label layoutX="10.0" layoutY="10.0" text="Driver" />
+                        <TextField fx:id="tfDriverA" editable="false" layoutX="10.0" layoutY="33.0" />
+                        <Label layoutX="10.0" layoutY="63.0" text="Damages" />
+                        <TextArea fx:id="taDamagesA" editable="false" prefHeight="0.0" prefWidth="200.0" />
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="15.0" layoutY="53.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="3.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #f1f5f9; -fx-background-radius: 5px;" text="Info B" textFill="#4f46e5">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label text="Vehicle" />
+                        <TextField fx:id="tfVehicleB" editable="false" />
+                        <Label layoutX="10.0" layoutY="10.0" text="Driver" />
+                        <TextField fx:id="tfDriverB" editable="false" layoutX="10.0" layoutY="33.0" />
+                        <Label layoutX="10.0" layoutY="63.0" text="Damages" />
+                        <TextArea fx:id="taDamagesB" prefHeight="0.0" prefWidth="200.0" />
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+                  <HBox fx:id="hbButtons" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="3.0" style="-fx-background-color: white; -fx-background-radius: 5px;">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#onReject" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #f43f5e;" text="Reject" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="15.0" layoutY="15.0" mnemonicParsing="false" onAction="#onAccept" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #10b981;" text="Accept" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </content>
+   <padding>
+      <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+   </padding>
+</ScrollPane>

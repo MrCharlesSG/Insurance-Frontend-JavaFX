@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0" style="-fx-background-color: #f1f5f9;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.javafxinsurance.controller.AssociateDriverController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Associate Driver" textFill="#4f46e5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0" style="-fx-background-color: white; -fx-background-radius: 15px;">
+         <children>
+            <Label text="Name" />
+            <TextField fx:id="tfName" />
+            <Label text="Surname" />
+            <TextField fx:id="tfSurname" />
+            <Label text="Passport" />
+            <TextField fx:id="tfPassport" />
+            <Label text="Email" />
+            <TextField fx:id="tfEmail" />
+            <Label text="Birthday" />
+            <DatePicker fx:id="dpBirthday" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="4.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onReset" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #fb923c;" text="Reset" textFill="WHITE" />
+            <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#onExisting" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #4f46e5;" text="Existing" textFill="WHITE" />
+            <Button layoutX="124.0" layoutY="20.0" mnemonicParsing="false" onAction="#onAccept" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #22c55e;" text="Accept" textFill="WHITE" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>

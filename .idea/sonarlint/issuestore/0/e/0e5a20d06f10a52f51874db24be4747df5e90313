@@ -1,0 +1,33 @@
+
+›
+java:S1104"SMake lbTitle a static final constant or non-public and provide accessors if needed.(ÅŒğıÿÿÿÿ8Áˆú1J$3e9eb179-94c1-44c3-ba51-ad24524f3188
+™
+java:S1104"VMake tfCarPlate a static final constant or non-public and provide accessors if needed.(¬Õ™ê8‘Áˆú1J$2a484b6d-202a-4a7c-b5e1-afeca0c19051
+
+java:S1104"VMake tfPassword a static final constant or non-public and provide accessors if needed.(ûêãÀıÿÿÿÿ8‘Áˆú1J$652543e6-1140-4671-8b94-47a90ddeba6f
+Ÿ
+java:S1104"\Make vbRegisterValues a static final constant or non-public and provide accessors if needed.(¸®á¯8‘Áˆú1J$09685a32-40ba-45bc-82cb-827e5e3265a1
+–
+java:S1104"SMake tfBrand a static final constant or non-public and provide accessors if needed.(×‰ºÚ8‘Áˆú1J$74a598b1-e5e8-457b-a228-9b51f05ee034
+–
+java:S1104"SMake tfModel a static final constant or non-public and provide accessors if needed.(š•ßñ8‘Áˆú1J$c383fb4a-3b3f-47e1-a5c4-b60e48ab11ef
+”
+java:S1104"RMake tfYear a static final constant or non-public and provide accessors if needed.(‡Ÿ²68‘Áˆú1J$7c834aad-a83a-4371-9eb2-915c0f02eab1
+œ
+java:S1104"TMake btnReset a static final constant or non-public and provide accessors if needed.(ŸÏ¶”ıÿÿÿÿ8‘Áˆú1J$9670066a-e81f-4001-873e-09e7d6bef1e8
+
+java:S1104 "UMake btnAccept a static final constant or non-public and provide accessors if needed.(µù°¡ùÿÿÿÿ8‘Áˆú1J$22320482-c445-4229-9e12-9ec3ab5b1e35
+¤
+java:S1104!"\Make btnLoginRegister a static final constant or non-public and provide accessors if needed.(§†æƒüÿÿÿÿ8‘Áˆú1J$9be2dd3d-e97d-44ad-893f-5219d324572d
+
+java:S1104""UMake piLoading a static final constant or non-public and provide accessors if needed.(ó’»Œúÿÿÿÿ8‘Áˆú1J$bca39d7f-f171-4366-b7d0-26fc5515c042
+
+java:S2259F"MA "NullPointerException" could be thrown; "loginRequestDTO" is nullable here.(¶¦Ëñ8°Áˆú1J$a6cddad4-e192-4813-be03-0fe25a9b5d00
+É
+java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡¨ƒûúÿÿÿÿ8±Áˆú1J$d21c0509-0880-4560-bfbe-04f7c371b4d8
+ƒ	java:S125Y"<This block of commented-out lines of code should be removed.(¯ö¿¿ùÿÿÿÿ8¸Áˆú1J$22ceaf68-24e2-4b5f-a698-5d8d4bcbe163
+~	java:S125["<This block of commented-out lines of code should be removed.(äïšë8¸Áˆú1J$cd9f4b5b-fe2b-4839-808e-f05fc912f033
+z
+java:S1172_"2Remove this unused method parameter "actionEvent".(•Ìõ¨ıÿÿÿÿ8¹Áˆú1J$f3a14e02-8dd8-4aad-99f6-569cb606b4a5
+{
+java:S1128"3Remove this unused import 'java.net.Authenticator'.(Ïˆáúÿÿÿÿ8—ğò‰ú1J$71567a49-0ea0-4e68-913c-d08fcfd0e598

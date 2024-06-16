@@ -1,0 +1,13 @@
+
+	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Áïÿùÿÿÿÿ8ŞŒ‚2J$350570e6-8adf-4967-a4c3-77ffe0023852
+	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(Ü™ŞÙûÿÿÿÿ8‘ŞŒ‚2J$a8a3bee0-f97f-4c7c-a146-6d9ac7714abc
+‡	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(è¾æ-8‹èÃŒ‚2J$9dbcc09e-7e09-4fdd-add7-1e0591ca5939
+	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(ÌÖ„øÿÿÿÿ8‹èÃŒ‚2J$7ea108fa-a0f8-48f0-b313-46c46a6085bc
+	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(—À…¯ûÿÿÿÿ8‡¦ÅŒ‚2J$8742ee4c-9ab1-4b0b-afa9-28e388c9e21d
+	java:S112e"FDefine and throw a dedicated exception instead of using a generic one.(ËŠÀıÿÿÿÿ8‡¦ÅŒ‚2J$ee983c35-643e-49bc-8227-5efbd9c4af75
+›	java:S116"TRename this field "BASIC_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÀĞàøÿÿÿÿ8¥ŞŒ‚2J$4bcfb3b5-500c-44de-8cec-79e923b7182f
+	java:S116"[Rename this field "GET_BY_EMAIL_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Êª€8¥ŞŒ‚2J$141b3264-0231-4317-bef1-9462bcd9745e
+¨	java:S116"aRename this field "ASSOCIATE_BY_EMAIL_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©£÷íıÿÿÿÿ8¥ŞŒ‚2J$aca1533c-bdf7-45a2-83ac-eb871fadcf54
+¦	java:S116"dRename this field "DISASSOCIATE_BY_EMAIL_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıŞÊ²8¥ŞŒ‚2J$b8130046-1ba3-4cf2-b80c-75d42b1d4b48
+÷
+java:S6548"®An Enum-based Singleton implementation was detected. Make sure the use of the Singleton pattern is required and an Enum-based implementation is the right one for the context.(ı’¾¤øÿÿÿÿ8¦ŞŒ‚2J$9b97a0e5-f759-4dd8-83ac-a73b57c89f99

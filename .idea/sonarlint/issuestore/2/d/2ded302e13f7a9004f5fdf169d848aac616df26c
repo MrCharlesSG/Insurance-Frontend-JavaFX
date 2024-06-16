@@ -1,0 +1,37 @@
+
+™
+java:S1104"VMake tfVehicleA a static final constant or non-public and provide accessors if needed.(¡ßÁï8È‘¼„ú1J$27b73f4f-52b7-4ae9-820d-7a2b335d2f4d
+˜
+java:S1104 "UMake tfDriverA a static final constant or non-public and provide accessors if needed.(â Ã«8É‘¼„ú1J$0ca5c88f-81a2-4ca2-968b-7e359334bb29
+™
+java:S1104!"VMake taDamagesA a static final constant or non-public and provide accessors if needed.(¶®÷8É‘¼„ú1J$1b3efcfb-62ff-41b2-8f83-7f0f5b6feb52
+
+java:S1104""VMake tfVehicleB a static final constant or non-public and provide accessors if needed.(Æ§¶µıÿÿÿÿ8É‘¼„ú1J$964f4ddd-562c-4bfd-b3f6-7ead0cb715f4
+˜
+java:S1104#"UMake tfDriverB a static final constant or non-public and provide accessors if needed.(ËÙ„İ8É‘¼„ú1J$64e67bf2-6793-4dc0-b16c-480232a11dd3
+
+java:S1104$"VMake taDamagesB a static final constant or non-public and provide accessors if needed.(«»â¥ûÿÿÿÿ8É‘¼„ú1J$8eee85e4-0cb7-4b3f-90a7-efe3a67fc1d7
+
+java:S1104%"UMake hbButtons a static final constant or non-public and provide accessors if needed.(Ş­êûşÿÿÿÿ8É‘¼„ú1J$ac873031-2644-4e47-9d44-33cda3aa483f
+¥
+java:S1104&"]Make cbReportsSelector a static final constant or non-public and provide accessors if needed.(’¸Å¯úÿÿÿÿ8É‘¼„ú1J$b015bfe3-413c-4954-814d-e28ecfeadff3
+”
+java:S1104'"RMake tcDate a static final constant or non-public and provide accessors if needed.(İºÑt8É‘¼„ú1J$1bce0571-38f6-4988-abea-c0c021a43785
+–
+java:S1104("SMake tcPlace a static final constant or non-public and provide accessors if needed.(’ø•Û8É‘¼„ú1J$5ca0365e-5d41-4283-807e-57512c5222c7
+˜
+java:S1104)"UMake tcDetails a static final constant or non-public and provide accessors if needed.(ªóÜ×8É‘¼„ú1J$f7b6b570-114f-45a4-8366-0b5b8316286e
+œ
+java:S1104*"TMake tcStatus a static final constant or non-public and provide accessors if needed.(«‰Àüÿÿÿÿ8É‘¼„ú1J$158490bc-e5a3-4c79-b031-5d516d370bc0
+›
+java:S1104+"XMake tableReports a static final constant or non-public and provide accessors if needed.(¤ÁçÑ8É‘¼„ú1J$e383feaa-1d2d-493c-8cd5-87c47da1d956
+¼
+java:S1130b"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(æÛÍÙ8Œ©°€ü1J$aa677608-6e2c-4d31-bceb-7b4441e72eac
+v
+java:S1172ˆ"2Remove this unused method parameter "actionEvent".( ö¬Š8ü‘¼„ú1J$7a7ba3e8-359b-4abb-8d77-3384612379dd
+{
+java:S1172“"2Remove this unused method parameter "actionEvent".(¡ÁÄÛÿÿÿÿÿ8ş‘¼„ú1J$bb5adf18-3f68-4949-a79c-7e350397d86b
+{
+java:S1172¡"2Remove this unused method parameter "actionEvent".(¨ÚÕ¥ÿÿÿÿÿ8€’¼„ú1J$d7b9f3b0-81dc-4bdf-84b5-4f989a49f5d1
+{
+java:S1172¶"2Remove this unused method parameter "actionEvent".(áÄÿåûÿÿÿÿ8’¼„ú1J$013d5faf-6867-4eb9-819c-04be4503e6da

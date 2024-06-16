@@ -1,0 +1,6 @@
+
+›	java:S116"TRename this field "BASIC_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò°„ïúÿÿÿÿ8ôÞ’ˆú1J$e147b130-0eed-4266-8d0b-4fbcd6536ba4
+ò
+java:S6548"®An Enum-based Singleton implementation was detected. Make sure the use of the Singleton pattern is required and an Enum-based implementation is the right one for the context.(°ôúÏ8õÞ’ˆú1J$15dd038e-2376-46a5-b980-8800e92c812d
+’
+java:S1128"JRemove this unused import 'hr.algebra.javafxinsurance.model.ReportStatus'.(®ï“Óøÿÿÿÿ8ì˜ƒ§ü1J$4c1e6637-9c7b-48c9-a20b-6b8f4da55446
