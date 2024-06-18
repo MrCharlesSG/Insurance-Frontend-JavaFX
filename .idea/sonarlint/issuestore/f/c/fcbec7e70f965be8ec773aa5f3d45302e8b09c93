@@ -1,9 +1,11 @@
 
 ›
-java:S1104"SMake tfPlate a static final constant or non-public and provide accessors if needed.(Éè„–úÿÿÿÿ8½¨‰ú1J$fd6d555f-de2e-4557-8298-580afc3aae53
+java:S1104"SMake tfPlate a static final constant or non-public and provide accessors if needed.(Éè„–úÿÿÿÿ8½¨‰ú1J$5cdc4aac-b18f-4e18-b1b9-164174f97def
 –
-java:S1104"SMake tfBrand a static final constant or non-public and provide accessors if needed.(×‰ºÚ8½¨‰ú1J$cd4c03a2-0ecb-43df-b4c6-6da02cf14a79
+java:S1104"SMake tfBrand a static final constant or non-public and provide accessors if needed.(×‰ºÚ8½¨‰ú1J$d4a5645e-6f81-4181-9bc1-9b45b73bdf16
 –
-java:S1104"SMake tfModel a static final constant or non-public and provide accessors if needed.(š•ßñ8½¨‰ú1J$b394dc7f-f0a3-4b84-a569-61299420afd7
+java:S1104"SMake tfModel a static final constant or non-public and provide accessors if needed.(š•ßñ8½¨‰ú1J$9cf99e7a-1385-4271-b1ec-fabc2ec75098
 ¡
-java:S1104"_Make tfManufacturingYear a static final constant or non-public and provide accessors if needed.(â¥­8½¨‰ú1J$59a292ed-f3ef-438f-9c54-64a26de2f490
+java:S1104"_Make tfManufacturingYear a static final constant or non-public and provide accessors if needed.(â¥­8½¨‰ú1J$fdc4bfda-e56e-4dd4-86ab-74e901338f63
+u
+java:S1172'"2Remove this unused method parameter "actionEvent".(ÇØ´×8æ”Íã‚2J$02be099f-c2dc-4214-860e-d0e7d78f8caa

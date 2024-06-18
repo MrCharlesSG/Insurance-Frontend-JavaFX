@@ -1,8 +1,11 @@
 package hr.algebra.javafxinsurance.controller;
 
+import hr.algebra.javafxinsurance.Main;
 import hr.algebra.javafxinsurance.dto.VehicleInfoDTO;
+import hr.algebra.javafxinsurance.serialization.exceptions.NonSerializableClassException;
 import hr.algebra.javafxinsurance.service.AuthService;
 import hr.algebra.javafxinsurance.utils.UIUtils;
+import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TextField;
 
@@ -31,5 +34,15 @@ public class ProfileMenuController implements Initializable {
         tfManufacturingYear.setText(authenticatedVehicle.getManufacturingYear().toString());
         tfModel.setText(authenticatedVehicle.getModel());
         tfPlate.setText(authenticatedVehicle.getPlate());
+    }
+
+    public void onLogout(ActionEvent actionEvent) {
+        try {
+            AuthService.INSTANCE.logOut();
+            Main.showLoginScreen();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 }

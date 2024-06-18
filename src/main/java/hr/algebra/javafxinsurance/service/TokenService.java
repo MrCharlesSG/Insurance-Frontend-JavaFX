@@ -15,12 +15,12 @@ public enum TokenService {
     public String getAccessToken() throws IllegalAccessException {
         if(token.isEmpty()){
             token = Optional.ofNullable(loadTokens());
-            if(token.isEmpty()){
+            if(token.isEmpty() || token.get().isEmpty()){
                 throw new IllegalAccessException("User Is not Authenticated");
             }
         }
         Token tokenNotNull = token.get();
-        if(tokenNotNull.isRefreshTokenExpired()){
+        if(tokenNotNull.isRefreshTokenExpired() || token.get().isEmpty()){
             Main.showLoginScreen();
             throw new IllegalAccessException("User need an authentication, becouse sesion has expired");
         }
@@ -39,7 +39,7 @@ public enum TokenService {
 
     public boolean isAuthenticated() throws IllegalAccessException {
         token = Optional.ofNullable(loadTokens());
-        if(token.isPresent() && !token.get().isRefreshTokenExpired()){
+        if(token.isPresent() && !token.get().isEmpty() && !token.get().isRefreshTokenExpired()){
             try {
                 AuthService.INSTANCE.refreshToken(token.get());
             } catch (IllegalAccessException e) {
@@ -69,6 +69,10 @@ public enum TokenService {
             this.token.get().refreshToken(tokenRefreshed);
             saveTokens();
         }
+    }
+
+    public void invalidateSession() throws NonSerializableClassException {
+        new TokenSerializer().save(new Token());
     }
 }
 

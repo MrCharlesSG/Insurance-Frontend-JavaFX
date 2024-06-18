@@ -64,4 +64,8 @@ public class Token implements Serializable {
     private void refreshToken(){
         this.accessTokenExpiry = new Date(System.currentTimeMillis()+ EXPIRATION_TIME_ACCESS_TOKEN).toInstant();
     }
+
+    public boolean isEmpty(){
+        return token == null || accessToken == null;
+    }
 }

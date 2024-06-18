@@ -1,15 +1,5 @@
 
 š
-java:S1104"RMake bpMain a static final constant or non-public and provide accessors if needed.(‡Çòúıÿÿÿÿ8Øˆœƒú1J$881f7630-ae37-4012-b917-ce367e9d6d11
+java:S1104"RMake bpMain a static final constant or non-public and provide accessors if needed.(‡Çòúıÿÿÿÿ8Øˆœƒú1J$4bf17492-3c7b-4261-b5cf-ade68d6395db
 
-java:S1104"VMake btnProfile a static final constant or non-public and provide accessors if needed.(çÇêñùÿÿÿÿ8Øˆœƒú1J$0e14f1e6-263c-4918-9377-6cb40713b6cf
-u
-java:S1172$"2Remove this unused method parameter "actionEvent".(×º¨8Œ‰œƒú1J$d33ad8f2-079a-4aa9-8467-bf6097eb635e
-z
-java:S1172("2Remove this unused method parameter "actionEvent".(Ó¬Úİüÿÿÿÿ8‰œƒú1J$79c4f8cb-b774-4f53-8133-4a71a1fbec76
-u
-java:S1172,"2Remove this unused method parameter "actionEvent".(üÅÏå8‰œƒú1J$ef6893a8-4f43-432b-a812-45f8961e29b8
-u
-java:S1128"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿ8½€¤¯ú1J$a6dc2151-96f3-4f98-9f4c-7441f50c97ac
-
-java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ8½€¤¯ú1J$29f70a0f-66c9-4f9c-84f6-65ee1af8c6c2
+java:S1104"VMake btnProfile a static final constant or non-public and provide accessors if needed.(çÇêñùÿÿÿÿ8Øˆœƒú1J$84b49637-1160-4844-b40e-77456b661359

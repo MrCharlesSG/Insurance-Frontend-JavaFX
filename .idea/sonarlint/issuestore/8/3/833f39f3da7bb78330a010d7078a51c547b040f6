@@ -1,19 +1,16 @@
 
-ˆ	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(ÀÚ…¡8ûÆ¯€ü1J$d4cb4ce1-7bb8-43a9-af9f-0de0e8332986
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(½öÜÄùÿÿÿÿ8ıÆ¯€ü1J$9f99def7-cf9d-43ca-89e5-b1014491d051
-	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(Ì¦øøÿÿÿÿ8ÿÆ¯€ü1J$e740aa4f-fa42-40b2-84cb-eec461369ab6
-ˆ	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(ÀÚ…¡8ÿÆ¯€ü1J$af77dbbb-c226-45e3-a902-f09b7637133b
-
-java:S2259M"FA "NullPointerException" could be thrown; "getBody()" can return null.(Í¤İñÿÿÿÿÿ8„ñÂ¦ü1J$a75d9624-11e1-4730-9c9a-039df821be97
-‰
-java:S2259N"FA "NullPointerException" could be thrown; "getBody()" can return null.(Àì¶Ô8„ñÂ¦ü1J$58d72beb-1f83-4095-95ff-b549c95b86ec
-	java:S116"WRename this field "AUTH_API_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ÎÜÓÿÿÿÿÿ8˜Ç¯€ü1J$d7ba527c-783e-4cf9-9ec1-f6844ebf22e4
-›	java:S116"TRename this field "LOGIN_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ²—µùÿÿÿÿ8˜Ç¯€ü1J$9a5d9286-a5e7-4b31-88b4-f5fc1ec4c2fe
-	java:S116"WRename this field "REGISTER_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èßĞñúÿÿÿÿ8˜Ç¯€ü1J$f159dcb3-4bd8-4125-90a0-7195e05449e4
-£	java:S116"\Rename this field "REFRESH_TOKEN_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¶üşüÿÿÿÿ8˜Ç¯€ü1J$3deeea2f-0264-4c6f-a483-4c5656c1cb81
-÷
-java:S6548"®An Enum-based Singleton implementation was detected. Make sure the use of the Singleton pattern is required and an Enum-based implementation is the right one for the context.(à×²ûúÿÿÿÿ8™Ç¯€ü1J$3f549986-b133-4910-b25b-0eeff55c0528
-t
-java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§8¨ÄÃ¦ü1J$8b5b0137-1ab5-413e-9aa6-876c5a7606d4
-}
-java:S1128"5Remove this unused import 'java.net.http.HttpClient'.(Œ³’Öşÿÿÿÿ8¨ÄÃ¦ü1J$970deab5-7382-4968-bcce-f69293b5c37c
+b	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(ÀÚ…¡8ÎÃã‚2
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(½öÜÄùÿÿÿÿ8ÎÃã‚2
+g	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(Ì¦øøÿÿÿÿ8ÎÃã‚2
+b	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(ÀÚ…¡8ÎÃã‚2
+c
+java:S2259Q"FA "NullPointerException" could be thrown; "getBody()" can return null.(Àì¶Ô8ªÎÃã‚2
+h
+java:S2259P"FA "NullPointerException" could be thrown; "getBody()" can return null.(Í¤İñÿÿÿÿÿ8ªÎÃã‚2
+x	java:S116"WRename this field "AUTH_API_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ÎÜÓÿÿÿÿÿ8¬ÎÃã‚2
+u	java:S116"TRename this field "LOGIN_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ²—µùÿÿÿÿ8¬ÎÃã‚2
+v	java:S116"URename this field "LOGOUT_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³²‚ôüÿÿÿÿ8¬ÎÃã‚2
+x	java:S116"WRename this field "REGISTER_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èßĞñúÿÿÿÿ8¬ÎÃã‚2
+}	java:S116"\Rename this field "REFRESH_TOKEN_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¶üşüÿÿÿÿ8¬ÎÃã‚2
+Ñ
+java:S6548"®An Enum-based Singleton implementation was detected. Make sure the use of the Singleton pattern is required and an Enum-based implementation is the right one for the context.(à×²ûúÿÿÿÿ8­ÎÃã‚2
