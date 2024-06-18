@@ -16,7 +16,6 @@ public enum VehicleService {
 
     private final String BASIC_URL = API_URL + "/vehicles";
 
-
     public VehicleInfoDTO getVehicleByPlate(String plate) throws IllegalAccessException {
         HttpEntity<String> entity = new HttpEntity<>(AuthService.INSTANCE.getAuthHeader());
 
